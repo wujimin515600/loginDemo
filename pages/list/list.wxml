@@ -1,0 +1,4 @@
+<wxs module='filter' src='list.wxs'></wxs>
+<view class='btn upload' bindtap='upload'>上传图片</view>
+<view><text>{{filter.enter(text)}}</text></view>
+<view><text>{{filter.enter(text1)}}</text></view>

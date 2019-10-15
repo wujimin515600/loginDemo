@@ -1,0 +1,7 @@
+.btn{
+    height: 60rpx;
+    width: 200rpx;
+    border: 1rpx solid #ddd;
+    text-align: center;
+    line-height: 60rpx;
+}

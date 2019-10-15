@@ -1,0 +1,10 @@
+function enter(str) {
+    if (str && str.indexOf('\\n') != 0) {
+        var arr = str.split('\\n');
+        str = arr.join('\n');
+    }
+    return str;
+}
+module.exports = {
+    enter: enter
+}
