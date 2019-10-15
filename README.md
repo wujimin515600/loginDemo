@@ -1,2 +1,8 @@
 # loginDemo
 小程序封装request
+
+在app.js定义了一个用于请求token的promise对象，用于在首页请求其他接口时app.js还没有返回数据的问题，并同时加了一个状态，用来判断在首页onShow里的请求是否执行。
+http 封装了wx.request wx.uploadFile两个方法 还可以根据需求在添加
+http 封装了接口统一使用token和token的过期处理
+token过期处理 
+在并发请求时只会执行一次login来获取token，获取成功后继续执行未完成的请求。
